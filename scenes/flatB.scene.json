@@ -1025,111 +1025,6 @@
    "source": "Kenney Furniture Kit 2.0 (CC0)"
   },
   {
-   "id": "f_bed3",
-   "sku": "KENNEY-bedDouble",
-   "vendorId": "library-cc0",
-   "model": "kenney/bedDouble.glb",
-   "room": "r_bed3",
-   "position": [
-    350.6,
-    0,
-    589.3
-   ],
-   "rotationY": 180.0,
-   "dims": [
-    181.7,
-    66.3,
-    183.9
-   ],
-   "placeholder": true,
-   "license": "CC0-1.0",
-   "source": "Kenney Furniture Kit 2.0 (CC0)"
-  },
-  {
-   "id": "f_bedside3",
-   "sku": "KENNEY-cabinetBedDrawerTable",
-   "vendorId": "library-cc0",
-   "model": "kenney/cabinetBedDrawerTable.glb",
-   "room": "r_bed3",
-   "position": [
-    462.8,
-    0,
-    661.4
-   ],
-   "rotationY": 180.0,
-   "dims": [
-    38.3,
-    50,
-    38.3
-   ],
-   "placeholder": true,
-   "license": "CC0-1.0",
-   "source": "Kenney Furniture Kit 2.0 (CC0)"
-  },
-  {
-   "id": "f_ward3",
-   "sku": "KENNEY-bookcaseClosedDoors",
-   "vendorId": "library-cc0",
-   "model": "kenney/bookcaseClosedDoors.glb",
-   "room": "r_bed3",
-   "position": [
-    535.2,
-    0,
-    631.3
-   ],
-   "rotationY": 270.0,
-   "dims": [
-    125.1,
-    210,
-    55.2
-   ],
-   "placeholder": true,
-   "license": "CC0-1.0",
-   "source": "Kenney Furniture Kit 2.0 (CC0)"
-  },
-  {
-   "id": "f_tvc3",
-   "sku": "KENNEY-cabinetTelevision",
-   "vendorId": "library-cc0",
-   "model": "kenney/cabinetTelevision.glb",
-   "room": "r_bed3",
-   "position": [
-    361.6,
-    0,
-    399.9
-   ],
-   "rotationY": 0.0,
-   "dims": [
-    149.4,
-    45,
-    33.1
-   ],
-   "placeholder": true,
-   "license": "CC0-1.0",
-   "source": "Kenney Furniture Kit 2.0 (CC0)"
-  },
-  {
-   "id": "f_tv3",
-   "sku": "KENNEY-televisionModern",
-   "vendorId": "library-cc0",
-   "model": "kenney/televisionModern.glb",
-   "room": "r_bed3",
-   "position": [
-    360.5,
-    45,
-    403.2
-   ],
-   "rotationY": 0.0,
-   "dims": [
-    80.9,
-    60,
-    14.7
-   ],
-   "placeholder": true,
-   "license": "CC0-1.0",
-   "source": "Kenney Furniture Kit 2.0 (CC0)"
-  },
-  {
    "id": "f_fan3",
    "sku": "ASTRA-FAN-LIGHT",
    "vendorId": "astra-original",
@@ -2126,237 +2021,6 @@
    "source": "Astra common-balcony reference study, measured to the traced room."
   },
   {
-   "id": "b2_sofa_bed",
-   "sku": "ASTRA-B2-SOFA-BED",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/compact-sofa-bed.glb",
-   "room": "r_bed2",
-   "position": [
-    345,
-    0,
-    320
-   ],
-   "rotationY": 180,
-   "dims": [
-    142,
-    87,
-    100
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_wardrobe",
-   "sku": "ASTRA-B2-WARDROBE",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/sliding-wardrobe.glb",
-   "room": "r_bed2",
-   "position": [
-    467,
-    0,
-    85
-   ],
-   "rotationY": 270,
-   "dims": [
-    150,
-    236,
-    66
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_desk",
-   "sku": "ASTRA-B2-DESK",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/office-desk.glb",
-   "room": "r_bed2",
-   "position": [
-    225,
-    0,
-    153
-   ],
-   "rotationY": 90,
-   "dims": [
-    120,
-    73,
-    60
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_gaming_setup",
-   "sku": "ASTRA-B2-GAMING-SETUP",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/gaming-setup.glb",
-   "room": "r_bed2",
-   "position": [
-    225,
-    73,
-    153
-   ],
-   "rotationY": 90,
-   "dims": [
-    116,
-    56,
-    37
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_desk_panel",
-   "sku": "ASTRA-B2-DESK-PANEL",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/desk-wall-panel.glb",
-   "room": "r_bed2",
-   "position": [
-    193,
-    105,
-    153
-   ],
-   "rotationY": 90,
-   "dims": [
-    120,
-    115,
-    21
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_chair",
-   "sku": "ASTRA-B2-CHAIR",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/task-chair.glb",
-   "room": "r_bed2",
-   "position": [
-    305,
-    0,
-    153
-   ],
-   "rotationY": 270,
-   "dims": [
-    60,
-    104,
-    60
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_tv",
-   "sku": "ASTRA-B2-TV",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/wall-tv.glb",
-   "room": "r_bed2",
-   "position": [
-    335,
-    112,
-    16
-   ],
-   "rotationY": 0,
-   "dims": [
-    96.75,
-    56.14,
-    6
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_tv_console",
-   "sku": "ASTRA-B2-TV-CONSOLE",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/floating-tv-console.glb",
-   "room": "r_bed2",
-   "position": [
-    335,
-    17,
-    33
-   ],
-   "rotationY": 0,
-   "dims": [
-    112,
-    40,
-    32
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_rug",
-   "sku": "ASTRA-B2-RUG",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/soft-rug.glb",
-   "room": "r_bed2",
-   "position": [
-    344,
-    1,
-    215
-   ],
-   "rotationY": 0,
-   "dims": [
-    154,
-    1.6,
-    155
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_balcony_drapes",
-   "sku": "ASTRA-B2-DRAPES",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/balcony-drapes.glb",
-   "room": "r_bed2",
-   "position": [
-    194,
-    0,
-    287
-   ],
-   "rotationY": 90,
-   "dims": [
-    130,
-    224,
-    8
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
-   "id": "b2_sofa_wall",
-   "sku": "ASTRA-B2-SOFA-WALL",
-   "vendorId": "astra-original",
-   "model": "astra-bedroom2/sofa-accent-wall.glb",
-   "room": "r_bed2",
-   "position": [
-    345,
-    15,
-    371
-   ],
-   "rotationY": 180,
-   "dims": [
-    300,
-    238,
-    4
-   ],
-   "placeholder": false,
-   "license": "Original illustrative Astra asset; product reference linked in docs, not a vendor model.",
-   "source": "Bedroom 2 work/gaming/guest-room design, 2026-10-01"
-  },
-  {
    "id": "astra_bed1_dressing",
    "sku": "ASTRA-REFERENCE-DRESSING",
    "vendorId": "astra-original",
@@ -2531,6 +2195,468 @@
    "placeholder": false,
    "license": "Original illustrative Astra asset",
    "source": "Bedroom 1 coordinated walnut, ivory and bronze styling"
+  },
+  {
+   "id": "f_bed2",
+   "room": "r_bed2",
+   "model": "astra-pilot/reference-walnut-bed.glb",
+   "position": [
+    315,
+    0,
+    263
+   ],
+   "dims": [
+    140,
+    136,
+    214
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-F_BED2",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_wardrobe",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/cream-teal-wardrobe.glb",
+   "position": [
+    472.5,
+    0,
+    199
+   ],
+   "dims": [
+    112,
+    269,
+    55
+   ],
+   "rotationY": 270,
+   "sku": "ASTRA-B2_WARDROBE",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_corner_office",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/walnut-corner-office.glb",
+   "position": [
+    403.5,
+    0,
+    72
+   ],
+   "dims": [
+    185,
+    185,
+    130
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-B2_CORNER_OFFICE",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_chair",
+   "room": "r_bed2",
+   "model": "astra-bedroom2/task-chair.glb",
+   "position": [
+    390,
+    0,
+    100
+   ],
+   "dims": [
+    54,
+    100,
+    54
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B2_CHAIR",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_projector",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/ceiling-projector.glb",
+   "position": [
+    315,
+    244,
+    95
+   ],
+   "dims": [
+    28,
+    31,
+    25
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-B2_PROJECTOR",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_projection_screen",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/projection-screen.glb",
+   "position": [
+    315,
+    157,
+    369
+   ],
+   "dims": [
+    180,
+    107,
+    8
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B2_PROJECTION_SCREEN",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_mirror",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/organic-walnut-mirror.glb",
+   "position": [
+    193.5,
+    8,
+    151
+   ],
+   "dims": [
+    70,
+    180,
+    6
+   ],
+   "rotationY": 90,
+   "sku": "ASTRA-B2_MIRROR",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_headboard",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/linen-headboard-panel.glb",
+   "position": [
+    315,
+    136,
+    371
+   ],
+   "dims": [
+    140,
+    130,
+    4
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B2_HEADBOARD",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_rug",
+   "room": "r_bed2",
+   "model": "astra-bedroom23/oat-rug.glb",
+   "position": [
+    315,
+    0.3,
+    261
+   ],
+   "dims": [
+    170,
+    1.4,
+    214
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-B2_RUG",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_nightstand",
+   "room": "r_bed2",
+   "model": "astra-pilot/reference-walnut-nightstand.glb",
+   "position": [
+    413,
+    0,
+    349
+   ],
+   "dims": [
+    34,
+    50,
+    34
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B2_NIGHTSTAND",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_pendant",
+   "room": "r_bed2",
+   "model": "astra-pilot/reference-bedside-pendant.glb",
+   "position": [
+    413,
+    143,
+    349
+   ],
+   "dims": [
+    14,
+    132,
+    14
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B2_PENDANT",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_balcony_drapes",
+   "room": "r_bed2",
+   "model": "astra-bedroom2/balcony-drapes.glb",
+   "position": [
+    193,
+    0,
+    288
+   ],
+   "dims": [
+    128,
+    224,
+    6
+   ],
+   "rotationY": 90,
+   "sku": "ASTRA-B2_BALCONY_DRAPES",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "f_bed3",
+   "room": "r_bed3",
+   "model": "astra-pilot/reference-walnut-bed.glb",
+   "position": [
+    345,
+    0,
+    577
+   ],
+   "dims": [
+    194,
+    136,
+    214
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-F_BED3",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b3_wardrobe",
+   "room": "r_bed3",
+   "model": "astra-bedroom23/geometric-greige-wardrobe.glb",
+   "position": [
+    538,
+    0,
+    591
+   ],
+   "dims": [
+    190,
+    269,
+    55
+   ],
+   "rotationY": 270,
+   "sku": "ASTRA-B3_WARDROBE",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b3_mirror",
+   "room": "r_bed3",
+   "model": "astra-bedroom23/organic-walnut-mirror.glb",
+   "position": [
+    194,
+    8,
+    627
+   ],
+   "dims": [
+    62,
+    180,
+    6
+   ],
+   "rotationY": 90,
+   "sku": "ASTRA-B3_MIRROR",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b3_headboard",
+   "room": "r_bed3",
+   "model": "astra-bedroom23/linen-headboard-panel.glb",
+   "position": [
+    345,
+    136,
+    687
+   ],
+   "dims": [
+    194,
+    130,
+    4
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B3_HEADBOARD",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b3_rug",
+   "room": "r_bed3",
+   "model": "astra-bedroom23/oat-rug.glb",
+   "position": [
+    348,
+    0.3,
+    577
+   ],
+   "dims": [
+    230,
+    1.4,
+    214
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-B3_RUG",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "f_bedside3",
+   "room": "r_bed3",
+   "model": "astra-pilot/reference-walnut-nightstand.glb",
+   "position": [
+    471,
+    0,
+    657
+   ],
+   "dims": [
+    37.5,
+    50,
+    39
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-F_BEDSIDE3",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b3_pendant",
+   "room": "r_bed3",
+   "model": "astra-pilot/reference-bedside-pendant.glb",
+   "position": [
+    471,
+    143,
+    657
+   ],
+   "dims": [
+    14,
+    132,
+    14
+   ],
+   "rotationY": 180,
+   "sku": "ASTRA-B3_PENDANT",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "f_tvc3",
+   "room": "r_bed3",
+   "model": "astra-pilot/reference-tv-console.glb",
+   "position": [
+    357,
+    32,
+    404
+   ],
+   "dims": [
+    124,
+    26,
+    32
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-F_TVC3",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "f_tv3",
+   "room": "r_bed3",
+   "model": "interactive_tv",
+   "position": [
+    357,
+    106,
+    391
+   ],
+   "dims": [
+    104,
+    58.5,
+    3.5
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-F_TV3",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b3_tvpanel",
+   "room": "r_bed3",
+   "model": "astra-pilot/reference-tv-backdrop.glb",
+   "position": [
+    357,
+    45,
+    389
+   ],
+   "dims": [
+    132,
+    205,
+    6
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-B3_TVPANEL",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
   }
  ],
  "tourNodes": [
@@ -2667,7 +2793,7 @@
    "walls": "warm-white"
   },
   "r_bed2": {
-   "floor": "oak-01",
+   "floor": "warm oak laminate",
    "walls": "warm-white"
   },
   "r_toilet2": {
@@ -2675,7 +2801,7 @@
    "walls": "warm-white"
   },
   "r_bed3": {
-   "floor": "oak-01",
+   "floor": "warm oak laminate",
    "walls": "warm-white"
   },
   "r_toilet3": {
@@ -2691,7 +2817,8 @@
   "createdBy": "user",
   "createdAt": "2026-09-22",
   "notes": "Illustrative 3D built from a traced sanctioned-plan drawing. Not the sanctioned plan. Openings marked assumed, ceiling height and furniture are placeholders.",
-  "bedroom2": "Illustrative work/gaming room with storage and sofa bed; see docs/BEDROOM-2-DESIGN.md for product references and clearances."
+  "bedroom2": "Illustrative work/gaming room with storage and sofa bed; see docs/BEDROOM-2-DESIGN.md for product references and clearances.",
+  "bedrooms23": "Owner references: compact 140 cm Bedroom 1 bed design in Bedroom 2, full-size bed in Bedroom 3; entry storage + corner office + ceiling projector; organic mirrors. See docs/BEDROOMS-23-REFERENCE.md."
  },
  "validation": {
   "scale": {
