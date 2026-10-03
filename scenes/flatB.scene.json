@@ -2244,12 +2244,12 @@
    "model": "astra-bedroom23/walnut-corner-office.glb",
    "position": [
     403.5,
-    0,
+    52,
     72
    ],
    "dims": [
     185,
-    185,
+    142,
     130
    ],
    "rotationY": 0,
