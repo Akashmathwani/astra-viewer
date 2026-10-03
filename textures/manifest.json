@@ -1,0 +1,26 @@
+{
+ "license": "CC0 1.0",
+ "source": "Poly Haven https://polyhaven.com/textures",
+ "textures": {
+  "white_stucco": {
+   "tileCm": 200,
+   "use": "walls, ceiling"
+  },
+  "marble_01": {
+   "tileCm": 150,
+   "use": "living, dining, kitchen floor"
+  },
+  "laminate_floor_02": {
+   "tileCm": 170,
+   "use": "bedroom floor"
+  },
+  "floor_tiles_02": {
+   "tileCm": 400,
+   "use": "toilet floor"
+  },
+  "large_floor_tiles_02": {
+   "tileCm": 300,
+   "use": "balcony floor"
+  }
+ }
+}

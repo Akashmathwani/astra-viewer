@@ -1,0 +1,999 @@
+{
+ "schemaVersion": 1,
+ "source": {
+  "type": "cad",
+  "reraNumber": "RAJ/P/2024/3168",
+  "confidence": 0.6,
+  "title": "Traced flat",
+  "origin": "samples/rajrera_P2024_3168_kalyan_eva/source/block1_electrical_a.pdf",
+  "page": 8,
+  "method": "hand trace over vector electrical plan",
+  "orientation": "drawing frame"
+ },
+ "units": "cm",
+ "levels": [
+  {
+   "id": "L0",
+   "elevation": 0,
+   "ceilingHeight": 275,
+   "ceilingHeightAssumed": true,
+   "walls": [
+    {
+     "id": "w_top_w",
+     "a": [
+      5.0,
+      68.6
+     ],
+     "b": [
+      550.7,
+      68.6
+     ],
+     "thickness": 12.7,
+     "type": "external"
+    },
+    {
+     "id": "w_left_t1",
+     "a": [
+      5.0,
+      237.2
+     ],
+     "b": [
+      5.0,
+      464.8
+     ],
+     "thickness": 12.7,
+     "type": "external"
+    },
+    {
+     "id": "w_t1_top",
+     "a": [
+      5.0,
+      237.2
+     ],
+     "b": [
+      168.6,
+      237.2
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_t1_bot",
+     "a": [
+      5.0,
+      464.8
+     ],
+     "b": [
+      168.6,
+      464.8
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_spine",
+     "a": [
+      168.6,
+      68.6
+     ],
+     "b": [
+      168.6,
+      845.6
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_bed1_bot",
+     "a": [
+      168.6,
+      388.1
+     ],
+     "b": [
+      550.7,
+      388.1
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_t2_right",
+     "a": [
+      434.8,
+      388.1
+     ],
+     "b": [
+      434.8,
+      530.1
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_bed2_top",
+     "a": [
+      168.6,
+      530.1
+     ],
+     "b": [
+      550.7,
+      530.1
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_mid_a",
+     "a": [
+      550.7,
+      68.6
+     ],
+     "b": [
+      550.7,
+      403.1
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_mid_b",
+     "a": [
+      550.7,
+      530.1
+     ],
+     "b": [
+      550.7,
+      845.6
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_bottom",
+     "a": [
+      168.6,
+      845.6
+     ],
+     "b": [
+      1079.4,
+      845.6
+     ],
+     "thickness": 14.7,
+     "type": "external"
+    },
+    {
+     "id": "w_right",
+     "a": [
+      1079.4,
+      0.0
+     ],
+     "b": [
+      1079.4,
+      845.6
+     ],
+     "thickness": 12.7,
+     "type": "external"
+    },
+    {
+     "id": "w_top_e",
+     "a": [
+      550.7,
+      0.0
+     ],
+     "b": [
+      1079.4,
+      0.0
+     ],
+     "thickness": 12.7,
+     "type": "external"
+    },
+    {
+     "id": "w_k_top",
+     "a": [
+      550.7,
+      109.9
+     ],
+     "b": [
+      762.9,
+      109.9
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_k_right",
+     "a": [
+      762.9,
+      0.0
+     ],
+     "b": [
+      762.9,
+      403.1
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    },
+    {
+     "id": "w_bed3_bot",
+     "a": [
+      762.9,
+      397.8
+     ],
+     "b": [
+      1079.4,
+      397.8
+     ],
+     "thickness": 12.7,
+     "type": "internal"
+    }
+   ],
+   "openings": [
+    {
+     "id": "d_bed1",
+     "wall": "w_bed1_bot",
+     "kind": "door",
+     "offset": 271.2,
+     "width": 104.6,
+     "height": 210,
+     "sill": 0,
+     "assumed": false,
+     "note": "door swing arc visible",
+     "assumedFields": [
+      "height"
+     ]
+    },
+    {
+     "id": "d_t1",
+     "wall": "w_spine",
+     "kind": "door",
+     "offset": 237.9,
+     "width": 76.6,
+     "height": 210,
+     "sill": 0,
+     "assumed": false,
+     "note": "toilet 1 door into bedroom 1",
+     "assumedFields": [
+      "height"
+     ]
+    },
+    {
+     "id": "d_t2",
+     "wall": "w_bed2_top",
+     "kind": "door",
+     "offset": 201.2,
+     "width": 70.0,
+     "height": 210,
+     "sill": 0,
+     "assumed": false,
+     "note": "toilet 2 door into bedroom 2; widened to about 0.7 m from the swing arc",
+     "assumedFields": [
+      "height"
+     ]
+    },
+    {
+     "id": "d_bed2",
+     "wall": "w_bed2_top",
+     "kind": "door",
+     "offset": 274.5,
+     "width": 99.9,
+     "height": 210,
+     "sill": 0,
+     "assumed": true,
+     "note": "no swing arc clearly visible",
+     "assumedFields": [
+      "height"
+     ]
+    },
+    {
+     "id": "d_bed3",
+     "wall": "w_bed3_bot",
+     "kind": "door",
+     "offset": 6.7,
+     "width": 99.9,
+     "height": 210,
+     "sill": 0,
+     "assumed": false,
+     "note": "door swing arc visible",
+     "assumedFields": [
+      "height"
+     ]
+    },
+    {
+     "id": "d_main",
+     "wall": "w_right",
+     "kind": "door",
+     "offset": 739.6,
+     "width": 98.6,
+     "height": 210,
+     "sill": 0,
+     "assumed": false,
+     "note": "entrance, arc towards corridor",
+     "assumedFields": [
+      "height"
+     ]
+    },
+    {
+     "id": "wn_b2",
+     "wall": "w_spine",
+     "kind": "window",
+     "offset": 491.1,
+     "width": 266.5,
+     "height": 120,
+     "sill": 90,
+     "assumed": true,
+     "note": "glazing to balcony 2; extent guessed",
+     "assumedFields": [
+      "height",
+      "sill"
+     ]
+    },
+    {
+     "id": "wn_b1",
+     "wall": "w_spine",
+     "kind": "window",
+     "offset": 24.7,
+     "width": 126.6,
+     "height": 120,
+     "sill": 90,
+     "assumed": true,
+     "note": "glazing to balcony 1; extent guessed",
+     "assumedFields": [
+      "height",
+      "sill"
+     ]
+    },
+    {
+     "id": "wn_k",
+     "wall": "w_k_top",
+     "kind": "window",
+     "offset": 45.6,
+     "width": 119.9,
+     "height": 120,
+     "sill": 90,
+     "assumed": true,
+     "note": "kitchen ventilation window; extent guessed",
+     "assumedFields": [
+      "height",
+      "sill"
+     ]
+    }
+   ],
+   "rooms": [
+    {
+     "id": "r_bed1",
+     "label": "Bedroom 1",
+     "type": "bedroom",
+     "polygon": [
+      [
+       173.2,
+       74.6
+      ],
+      [
+       544.4,
+       74.6
+      ],
+      [
+       544.4,
+       381.8
+      ],
+      [
+       173.2,
+       381.8
+      ]
+     ],
+     "areaSqm": 11.4,
+     "printed": {
+      "text": "10'-0\" x 12'-0\"",
+      "areaSqm": 11.15,
+      "ratio": 1.023
+     }
+    },
+    {
+     "id": "r_toilet1",
+     "label": "Toilet 1",
+     "type": "toilet",
+     "polygon": [
+      [
+       11.3,
+       243.2
+      ],
+      [
+       163.2,
+       243.2
+      ],
+      [
+       163.2,
+       458.4
+      ],
+      [
+       11.3,
+       458.4
+      ]
+     ],
+     "areaSqm": 3.27,
+     "printed": {
+      "text": "7'-0\" x 5'-0\"",
+      "areaSqm": 3.25,
+      "ratio": 1.006
+     }
+    },
+    {
+     "id": "r_toilet2",
+     "label": "Toilet 2",
+     "type": "toilet",
+     "polygon": [
+      [
+       173.2,
+       393.1
+      ],
+      [
+       429.8,
+       393.1
+      ],
+      [
+       429.8,
+       523.1
+      ],
+      [
+       173.2,
+       523.1
+      ]
+     ],
+     "areaSqm": 3.33,
+     "printed": {
+      "text": "4'-3\" x 8'-3\"",
+      "areaSqm": 3.26,
+      "ratio": 1.023
+     }
+    },
+    {
+     "id": "r_bed2",
+     "label": "Bedroom 2",
+     "type": "bedroom",
+     "polygon": [
+      [
+       175.2,
+       535.7
+      ],
+      [
+       544.4,
+       535.7
+      ],
+      [
+       544.4,
+       838.2
+      ],
+      [
+       175.2,
+       838.2
+      ]
+     ],
+     "areaSqm": 11.17,
+     "printed": {
+      "text": "10'-0\" x 12'-0\"",
+      "areaSqm": 11.15,
+      "ratio": 1.002
+     }
+    },
+    {
+     "id": "r_kitchen",
+     "label": "Kitchen",
+     "type": "kitchen",
+     "polygon": [
+      [
+       557.0,
+       115.9
+      ],
+      [
+       756.9,
+       115.9
+      ],
+      [
+       756.9,
+       399.8
+      ],
+      [
+       557.0,
+       399.8
+      ]
+     ],
+     "areaSqm": 5.67,
+     "printed": {
+      "text": "9'-6\" x 6'-7.5\"",
+      "areaSqm": 5.85,
+      "ratio": 0.97
+     }
+    },
+    {
+     "id": "r_bed3",
+     "label": "Bedroom 3",
+     "type": "bedroom",
+     "polygon": [
+      [
+       769.6,
+       6.7
+      ],
+      [
+       1072.8,
+       6.7
+      ],
+      [
+       1072.8,
+       391.8
+      ],
+      [
+       769.6,
+       391.8
+      ]
+     ],
+     "areaSqm": 11.68,
+     "printed": {
+      "text": "12'-7.5\" x 10'-0\"",
+      "areaSqm": 11.73,
+      "ratio": 0.996
+     }
+    },
+    {
+     "id": "r_living",
+     "label": "Drawing / Dining",
+     "type": "living",
+     "polygon": [
+      [
+       557.0,
+       404.5
+      ],
+      [
+       1072.8,
+       404.5
+      ],
+      [
+       1072.8,
+       838.2
+      ],
+      [
+       557.0,
+       838.2
+      ]
+     ],
+     "areaSqm": 22.37,
+     "printed": {
+      "text": "14'-3\" x 17'-0\"",
+      "areaSqm": 22.51,
+      "ratio": 0.994
+     }
+    },
+    {
+     "id": "r_passage",
+     "label": "Passage",
+     "type": "passage",
+     "polygon": [
+      [
+       439.8,
+       393.1
+      ],
+      [
+       544.4,
+       393.1
+      ],
+      [
+       544.4,
+       529.7
+      ],
+      [
+       439.8,
+       529.7
+      ]
+     ],
+     "areaSqm": 1.43
+    },
+    {
+     "id": "r_balc1",
+     "label": "Balcony 1",
+     "type": "balcony",
+     "polygon": [
+      [
+       0.0,
+       74.6
+      ],
+      [
+       163.2,
+       74.6
+      ],
+      [
+       163.2,
+       231.2
+      ],
+      [
+       0.0,
+       231.2
+      ]
+     ],
+     "areaSqm": 2.56,
+     "printed": {
+      "text": "5'-1.5\" x 5'-4.5\"",
+      "areaSqm": 2.56,
+      "ratio": 0.999
+     }
+    },
+    {
+     "id": "r_balc2",
+     "label": "Balcony 2",
+     "type": "balcony",
+     "polygon": [
+      [
+       0.0,
+       470.4
+      ],
+      [
+       163.2,
+       470.4
+      ],
+      [
+       163.2,
+       838.2
+      ],
+      [
+       0.0,
+       838.2
+      ]
+     ],
+     "areaSqm": 6.0,
+     "printed": {
+      "text": "12'-1.5\" x 5'-4.5\"",
+      "areaSqm": 6.05,
+      "ratio": 0.992
+     }
+    },
+    {
+     "id": "r_balc3",
+     "label": "Service balcony",
+     "type": "balcony",
+     "polygon": [
+      [
+       557.0,
+       5.3
+      ],
+      [
+       756.9,
+       5.3
+      ],
+      [
+       756.9,
+       103.9
+      ],
+      [
+       557.0,
+       103.9
+      ]
+     ],
+     "areaSqm": 1.97,
+     "printed": {
+      "text": "6'-7.5\" x 3'-1.5\"",
+      "areaSqm": 1.92,
+      "ratio": 1.025
+     }
+    }
+   ]
+  }
+ ],
+ "furniture": [
+  {
+   "id": "f_bed_1",
+   "sku": "MOCK-BED_DOUBLE",
+   "vendorId": "mock",
+   "model": "bed_double.placeholder",
+   "room": "r_bed1",
+   "position": [
+    343.2,
+    0,
+    193.2
+   ],
+   "rotationY": 0,
+   "dims": [
+    160,
+    45,
+    200
+   ],
+   "placeholder": true
+  },
+  {
+   "id": "f_bed_2",
+   "sku": "MOCK-BED_DOUBLE",
+   "vendorId": "mock",
+   "model": "bed_double.placeholder",
+   "room": "r_bed2",
+   "position": [
+    343.2,
+    0,
+    693.0
+   ],
+   "rotationY": 0,
+   "dims": [
+    160,
+    45,
+    200
+   ],
+   "placeholder": true
+  },
+  {
+   "id": "f_bed_3",
+   "sku": "MOCK-BED_DOUBLE",
+   "vendorId": "mock",
+   "model": "bed_double.placeholder",
+   "room": "r_bed3",
+   "position": [
+    956.2,
+    0,
+    166.6
+   ],
+   "rotationY": 90,
+   "dims": [
+    160,
+    45,
+    200
+   ],
+   "placeholder": true
+  },
+  {
+   "id": "f_sofa",
+   "sku": "MOCK-SOFA_3SEAT",
+   "vendorId": "mock",
+   "model": "sofa_3seat.placeholder",
+   "room": "r_living",
+   "position": [
+    1009.5,
+    0,
+    499.7
+   ],
+   "rotationY": 90,
+   "dims": [
+    210,
+    85,
+    95
+   ],
+   "placeholder": true
+  },
+  {
+   "id": "f_dining",
+   "sku": "MOCK-DINING_6",
+   "vendorId": "mock",
+   "model": "dining_6.placeholder",
+   "room": "r_living",
+   "position": [
+    689.6,
+    0,
+    659.7
+   ],
+   "rotationY": 90,
+   "dims": [
+    180,
+    90,
+    75
+   ],
+   "placeholder": true
+  }
+ ],
+ "tourNodes": [
+  {
+   "id": "n_living",
+   "room": "r_living",
+   "position": [
+    814.9,
+    150,
+    621.4
+   ],
+   "links": [
+    "n_passage",
+    "n_kitchen",
+    "n_bed3"
+   ]
+  },
+  {
+   "id": "n_passage",
+   "room": "r_passage",
+   "position": [
+    492.1,
+    150,
+    461.4
+   ],
+   "links": [
+    "n_living",
+    "n_bed1",
+    "n_bed2"
+   ]
+  },
+  {
+   "id": "n_kitchen",
+   "room": "r_kitchen",
+   "position": [
+    657.0,
+    150,
+    257.9
+   ],
+   "links": [
+    "n_living"
+   ]
+  },
+  {
+   "id": "n_bed1",
+   "room": "r_bed1",
+   "position": [
+    358.8,
+    150,
+    228.2
+   ],
+   "links": [
+    "n_passage"
+   ]
+  },
+  {
+   "id": "n_bed2",
+   "room": "r_bed2",
+   "position": [
+    359.8,
+    150,
+    687.0
+   ],
+   "links": [
+    "n_passage"
+   ]
+  },
+  {
+   "id": "n_bed3",
+   "room": "r_bed3",
+   "position": [
+    921.2,
+    150,
+    199.2
+   ],
+   "links": [
+    "n_living"
+   ]
+  }
+ ],
+ "materials": {
+  "r_bed1": {
+   "floor": "oak-01",
+   "walls": "warm-white"
+  },
+  "r_toilet1": {
+   "floor": "tile-white",
+   "walls": "warm-white"
+  },
+  "r_toilet2": {
+   "floor": "tile-white",
+   "walls": "warm-white"
+  },
+  "r_bed2": {
+   "floor": "oak-01",
+   "walls": "warm-white"
+  },
+  "r_kitchen": {
+   "floor": "vitrified-grey",
+   "walls": "warm-white"
+  },
+  "r_bed3": {
+   "floor": "oak-01",
+   "walls": "warm-white"
+  },
+  "r_living": {
+   "floor": "vitrified-grey",
+   "walls": "warm-white"
+  },
+  "r_passage": {
+   "floor": "vitrified-grey",
+   "walls": "warm-white"
+  },
+  "r_balc1": {
+   "floor": "tile-grey",
+   "walls": "warm-white"
+  },
+  "r_balc2": {
+   "floor": "tile-grey",
+   "walls": "warm-white"
+  },
+  "r_balc3": {
+   "floor": "tile-grey",
+   "walls": "warm-white"
+  }
+ },
+ "provenance": {
+  "createdBy": "user",
+  "createdAt": "2026-09-21",
+  "notes": "Illustrative 3D built from a traced sanctioned-plan drawing. Not the sanctioned plan. Openings marked assumed, ceiling height and furniture are placeholders."
+ },
+ "validation": {
+  "scale": {
+   "fittedMetresPerPoint": 0.02932,
+   "nominalMetresPerPoint": 0.035278,
+   "ratioToNominal": 0.831,
+   "note": "Fitted from printed room dimensions. The sheet is not at a true 1:100 scale."
+  },
+  "roomChecks": [
+   {
+    "room": "r_bed1",
+    "printedSqm": 11.15,
+    "tracedSqm": 11.4,
+    "ratio": 1.023
+   },
+   {
+    "room": "r_toilet1",
+    "printedSqm": 3.25,
+    "tracedSqm": 3.27,
+    "ratio": 1.006
+   },
+   {
+    "room": "r_toilet2",
+    "printedSqm": 3.26,
+    "tracedSqm": 3.33,
+    "ratio": 1.023
+   },
+   {
+    "room": "r_bed2",
+    "printedSqm": 11.15,
+    "tracedSqm": 11.17,
+    "ratio": 1.002
+   },
+   {
+    "room": "r_kitchen",
+    "printedSqm": 5.85,
+    "tracedSqm": 5.67,
+    "ratio": 0.97
+   },
+   {
+    "room": "r_bed3",
+    "printedSqm": 11.73,
+    "tracedSqm": 11.68,
+    "ratio": 0.996
+   },
+   {
+    "room": "r_living",
+    "printedSqm": 22.51,
+    "tracedSqm": 22.37,
+    "ratio": 0.994
+   },
+   {
+    "room": "r_balc1",
+    "printedSqm": 2.56,
+    "tracedSqm": 2.56,
+    "ratio": 0.999
+   },
+   {
+    "room": "r_balc2",
+    "printedSqm": 6.05,
+    "tracedSqm": 6.0,
+    "ratio": 0.992
+   },
+   {
+    "room": "r_balc3",
+    "printedSqm": 1.92,
+    "tracedSqm": 1.97,
+    "ratio": 1.025
+   }
+  ],
+  "roomRatioRange": [
+   0.97,
+   1.025
+  ],
+  "carpet": {
+   "netRoomsSqm": 70.32,
+   "internalWallsSqm": 4.56,
+   "roomsPlusInternalWallsSqm": 74.88,
+   "nearestTypeNet": {
+    "type": "3 BHK",
+    "flats": "203-1103",
+    "carpetSqm": 74.35,
+    "deltaPct": -5.4
+   },
+   "nearestTypeWithWalls": {
+    "type": "3 BHK",
+    "flats": "206-1106",
+    "carpetSqm": 74.45,
+    "deltaPct": 0.6
+   },
+   "note": "RERA carpet area includes internal partition walls and excludes balconies and external walls. Flat number of the traced unit is NOT known; nearest type is a hint, not an identification."
+  },
+  "worstRoomDeviation": 0.03,
+  "status": "pass"
+ }
+}
