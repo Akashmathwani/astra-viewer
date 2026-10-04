@@ -2220,14 +2220,14 @@
   {
    "id": "b2_wardrobe",
    "room": "r_bed2",
-   "model": "astra-bedroom23/cream-teal-wardrobe.glb",
+   "model": "astra-bedroom23/quiet-greige-wardrobe.glb",
    "position": [
     472.5,
     0,
-    199
+    194
    ],
    "dims": [
-    112,
+    128,
     269,
     55
    ],
@@ -2241,16 +2241,16 @@
   {
    "id": "b2_corner_office",
    "room": "r_bed2",
-   "model": "astra-bedroom23/walnut-corner-office.glb",
+   "model": "astra-bedroom23/walnut-dual-monitor-desk.glb",
    "position": [
-    403.5,
-    52,
-    72
+    321,
+    0,
+    42
    ],
    "dims": [
-    185,
-    142,
-    130
+    180,
+    188,
+    62
    ],
    "rotationY": 0,
    "sku": "ASTRA-B2_CORNER_OFFICE",
@@ -2264,9 +2264,9 @@
    "room": "r_bed2",
    "model": "astra-bedroom2/task-chair.glb",
    "position": [
-    390,
+    321,
     0,
-    100
+    113
    ],
    "dims": [
     54,
@@ -2281,42 +2281,63 @@
    "source": "Owner bedroom references, 2026-10-03"
   },
   {
-   "id": "b2_projector",
+   "id": "f_tvc2",
    "room": "r_bed2",
-   "model": "astra-bedroom23/ceiling-projector.glb",
+   "model": "astra-pilot/reference-tv-console.glb",
    "position": [
-    315,
-    244,
-    95
+    481,
+    32,
+    69
    ],
    "dims": [
-    28,
-    31,
-    25
+    104,
+    26,
+    32
    ],
-   "rotationY": 0,
-   "sku": "ASTRA-B2_PROJECTOR",
+   "rotationY": 270,
+   "sku": "ASTRA-F_TVC2",
    "vendorId": "astra-original",
    "placeholder": false,
    "license": "Original illustrative Astra design based on user references",
    "source": "Owner bedroom references, 2026-10-03"
   },
   {
-   "id": "b2_projection_screen",
+   "id": "f_tv2",
    "room": "r_bed2",
-   "model": "astra-bedroom23/projection-screen.glb",
+   "model": "interactive_tv",
    "position": [
-    315,
-    157,
-    369
+    491,
+    118,
+    69
    ],
    "dims": [
-    180,
-    107,
-    8
+    96,
+    54,
+    3.5
    ],
-   "rotationY": 180,
-   "sku": "ASTRA-B2_PROJECTION_SCREEN",
+   "rotationY": 270,
+   "sku": "ASTRA-F_TV2",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original illustrative Astra design based on user references",
+   "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "b2_tvpanel",
+   "room": "r_bed2",
+   "model": "astra-pilot/reference-tv-backdrop.glb",
+   "position": [
+    497,
+    45,
+    69
+   ],
+   "dims": [
+    110,
+    205,
+    4
+   ],
+   "rotationY": 270,
+   "sku": "ASTRA-B2_TVPANEL",
    "vendorId": "astra-original",
    "placeholder": false,
    "license": "Original illustrative Astra design based on user references",
@@ -2818,7 +2839,7 @@
   "createdAt": "2026-09-22",
   "notes": "Illustrative 3D built from a traced sanctioned-plan drawing. Not the sanctioned plan. Openings marked assumed, ceiling height and furniture are placeholders.",
   "bedroom2": "Illustrative work/gaming room with storage and sofa bed; see docs/BEDROOM-2-DESIGN.md for product references and clearances.",
-  "bedrooms23": "Owner references: compact 140 cm Bedroom 1 bed design in Bedroom 2, full-size bed in Bedroom 3; entry storage + corner office + ceiling projector; organic mirrors. See docs/BEDROOMS-23-REFERENCE.md."
+  "bedrooms23": "Owner references: compact 140 cm Bedroom 1 bed design in Bedroom 2, full-size bed in Bedroom 3; greige storage + straight dual-monitor office/gaming desk + separate TV + existing ceiling fan; organic mirrors. See docs/BEDROOMS-23-REFERENCE.md."
  },
  "validation": {
   "scale": {
