@@ -2678,6 +2678,69 @@
    "placeholder": false,
    "license": "Original illustrative Astra design based on user references",
    "source": "Owner bedroom references, 2026-10-03"
+  },
+  {
+   "id": "r_toilet1_tile_lining",
+   "room": "r_toilet1",
+   "model": "astra-bath-finishes/r_toilet1-lining.glb",
+   "position": [
+    1173.5,
+    0.8,
+    256.75
+   ],
+   "dims": [
+    146.5999999999999,
+    274.2,
+    233.29999999999995
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-BATH-TILES",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original procedural Astra tile pattern",
+   "source": "Owner bathroom tile references, 2026-10-05"
+  },
+  {
+   "id": "r_toilet2_tile_lining",
+   "room": "r_toilet2",
+   "model": "astra-bath-finishes/r_toilet2-lining.glb",
+   "position": [
+    90.89999999999999,
+    0.8,
+    105.94999999999999
+   ],
+   "dims": [
+    170.79999999999998,
+    274.2,
+    199.5
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-BATH-TILES",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original procedural Astra tile pattern",
+   "source": "Owner bathroom tile references, 2026-10-05"
+  },
+  {
+   "id": "r_toilet3_tile_lining",
+   "room": "r_toilet3",
+   "model": "astra-bath-finishes/r_toilet3-lining.glb",
+   "position": [
+    90.89999999999999,
+    0.8,
+    587.85
+   ],
+   "dims": [
+    170.79999999999998,
+    274.2,
+    203.90000000000003
+   ],
+   "rotationY": 0,
+   "sku": "ASTRA-BATH-TILES",
+   "vendorId": "astra-original",
+   "placeholder": false,
+   "license": "Original procedural Astra tile pattern",
+   "source": "Owner bathroom tile references, 2026-10-05"
   }
  ],
  "tourNodes": [
@@ -2806,8 +2869,8 @@
    "walls": "warm-white"
   },
   "r_toilet1": {
-   "floor": "tile-white",
-   "walls": "warm-white"
+   "floor": "bath-warm-stone",
+   "walls": "bath-reference-lining"
   },
   "r_balc1": {
    "floor": "tile-grey",
@@ -2818,16 +2881,16 @@
    "walls": "warm-white"
   },
   "r_toilet2": {
-   "floor": "tile-white",
-   "walls": "warm-white"
+   "floor": "bath-olive-pattern",
+   "walls": "bath-reference-lining"
   },
   "r_bed3": {
    "floor": "warm oak laminate",
    "walls": "warm-white"
   },
   "r_toilet3": {
-   "floor": "tile-white",
-   "walls": "warm-white"
+   "floor": "bath-warm-stone",
+   "walls": "bath-reference-lining"
   },
   "r_balc2": {
    "floor": "tile-grey",
@@ -2839,7 +2902,8 @@
   "createdAt": "2026-09-22",
   "notes": "Illustrative 3D built from a traced sanctioned-plan drawing. Not the sanctioned plan. Openings marked assumed, ceiling height and furniture are placeholders.",
   "bedroom2": "Illustrative work/gaming room with storage and sofa bed; see docs/BEDROOM-2-DESIGN.md for product references and clearances.",
-  "bedrooms23": "Owner references: compact 140 cm Bedroom 1 bed design in Bedroom 2, full-size bed in Bedroom 3; greige storage + straight dual-monitor office/gaming desk + separate TV + existing ceiling fan; organic mirrors. See docs/BEDROOMS-23-REFERENCE.md."
+  "bedrooms23": "Owner references: compact 140 cm Bedroom 1 bed design in Bedroom 2, full-size bed in Bedroom 3; greige storage + straight dual-monitor office/gaming desk + separate TV + existing ceiling fan; organic mirrors. See docs/BEDROOMS-23-REFERENCE.md.",
+  "bathroomFinishes": "Olive ceramic and warm limestone in bathrooms 1/3; beige herringbone and olive patterned floor in bathroom 2. Original texture patterns, opening-aware wall linings, fixture positions unchanged."
  },
  "validation": {
   "scale": {
